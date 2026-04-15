@@ -1,0 +1,452 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  gap: 20px;
+}
+
+/* MOBILE */
+.mobile {
+  display: none;
+}
+
+.mobile p {
+  border: 1px solid #fff;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 20px;
+  text-align: center;
+
+}
+
+.mobile p:hover {
+  background-color: palevioletred;
+  color: #fff;
+}
+
+.block {
+  display: block;
+}
+
+.desktop {
+  display: none;
+}
+
+/* search */
+
+#search {
+  width: 320px;
+  margin: 20px;
+}
+
+#search input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+/* num */
+.num {
+  display: grid;
+  align-self: center;
+  justify-self: center;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+
+}
+
+.one {
+  border: 1px solid #999;
+  width: 150px;
+  height: 80px;
+  padding: 0px;
+  display: grid;
+  border-radius: 20px;
+  text-align: center;
+
+}
+
+.one h4 {
+  font-size: 20px;
+  margin-bottom: -20px;
+  margin-top: 10px;
+}
+
+
+.bigbtn {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 20px;
+}
+
+.bigbtn span {
+  border: 1px solid #888;
+  padding: 9px;
+  border-radius: 10px;
+}
+
+.first {
+  background-color: rgb(0, 4, 255);
+}
+
+/* genres */
+
+
+.themes {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-self: center;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.romance {
+  background-color: pink;
+  color: #000;
+  margin: 10px 20px;
+  padding: 9px;
+}
+
+.fantasy {
+  background-color: rgb(241, 238, 15);
+  color: #000;
+  margin: 10px 20px;
+  padding: 9px;
+}
+
+.thriller {
+  background-color: #000;
+  color: #fff;
+  margin: 10px 20px;
+  padding: 9px;
+}
+
+.Drama {
+  background-color: #095f6e;
+  color: #fff;
+  margin: 10px 20px;
+  padding: 9px;
+}
+
+.slice-of-life {
+  background-color: #096e22;
+  color: #fff;
+  margin: 10px 20px;
+  padding: 9px;
+}
+
+.Historical {
+  background-color: #c40a0a;
+  color: #fff;
+  margin: 10px 20px;
+  padding: 9px;
+}
+
+
+/* footer */
+.foot {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  gap: 10px;
+  justify-content: space-evenly;
+}
+
+.foot p {
+
+  padding: 10px
+}
+
+
+.foot p:hover {
+  background-color: blueviolet;
+  border-radius: 10px;
+
+}
+
+/* discover */
+.white{
+  background-color: white;
+}
+
+/* individual platform page */
+
+.inthing {
+  display: grid;
+  align-items: center;
+  justify-self: center;
+  gap: 10px;
+
+}
+
+.inmain {
+  display: grid;
+
+}
+
+.inimg {
+  width: 320px;
+  height: 350px;
+  border: 1px solid #fff;
+}
+
+.inone {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+
+}
+
+.intwo {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+.insy {
+  margin: 10px 20px;
+}
+
+
+
+
+/* discover */
+ .dis{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 4rem;
+ }
+.dis-1{
+  display: grid;
+  align-self: center;
+  justify-self: center;
+  width: 300px;
+}
+.disp{
+  width: 50%;
+}
+
+/* wishlist */
+.on{
+  width: 600px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+  gap: 1rem;
+}
+
+.wish-1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#txt{
+  width: 300px;
+  padding: 12px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  margin-right: 10px;
+
+}
+.wish-2 li{
+  list-style-type: none;
+  padding: 7px;
+
+}
+
+
+
+
+
+
+
+
+@media (min-width:900px) {
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+  }
+
+  header {
+    width: 100%;
+  }
+
+  .head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 15px;
+    padding: 10px;
+    background-color: #c40a0a;
+
+  }
+
+  .head span {
+    display: none;
+  }
+
+  .desktop {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+  }
+
+
+  .desktop p {
+    border: 1px solid #fff;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+
+  /* num */
+  .num {
+    display: grid;
+    align-self: center;
+    justify-self: center;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+
+
+  }
+
+  .one {
+    border: 1px solid #999;
+    width: 250px;
+    height: 80px;
+    padding: 0px;
+    display: grid;
+    border-radius: 20px;
+    text-align: center;
+
+  }
+
+  .one h2 {
+    color: #fff;
+    margin-top: 15px;
+  }
+
+  /*  */
+  .bigbtn {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 30px 20px;
+    gap: 20px;
+  }
+
+  /*  */
+  .themes {
+    display: grid;
+    grid-template-columns: repeat(6, 216px);
+    align-self: center;
+    justify-self: center;
+    gap: 10px;
+  }
+
+
+  .romance {
+    background-color: pink;
+    color: #000;
+    margin: 10px 10px;
+    padding: 12px;
+    
+
+  }
+
+  .fantasy {
+    background-color: rgb(241, 238, 15);
+    color: #000;
+    margin: 10px 10px;
+    padding: 12px;
+
+  }
+
+  .thriller {
+    background-color: #000;
+    color: #fff;
+    margin: 10px 10px;
+    padding: 12px;
+
+  }
+
+  .Drama {
+    background-color: #095f6e;
+    color: #fff;
+    margin: 10px 10px;
+    padding: 12px;
+  }
+
+  .slice-of-life {
+    background-color: #096e22;
+    color: #fff;
+    margin: 10px 10px;
+    padding: 12px;
+
+  }
+
+  .Historical {
+    background-color: #c40a0a;
+    color: #fff;
+    margin: 10px 10px;
+    padding: 12px;
+  }
+
+  .individuals {
+    display: grid;
+    align-items: center;
+    justify-self: center;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+
+  }
+
+  #search {
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+ 
+
+}
+
+@media (prefers-color-scheme: light) {
+  #search {
+    width: 30%;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+
+  #search input {
+    width: 100%;
+    margin: 20px;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 10px;
+  }
+}
